@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Чат богов</title>
+    {% load static %}
+    <link href="{% static 'css.css' %}" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <div class="inner-header">
+            <a href="" class="logotype">Мерончат</a>
+        </div>
+        <ul class="navigation">
+            <a href=""><li>Главная</li></a>
+        </ul>
+    </div>
+    <div class="main">
+    {% block content %}
+    {% endblock content %}
+    </div>
+
+
+</body>
+</html>

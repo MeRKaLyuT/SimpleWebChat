@@ -1,0 +1,88 @@
+
+html {
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logotype {
+    color: #C8FDFF;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: -10px;
+
+
+}
+
+.messages {
+    display: inline-block;
+}
+
+.author {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1em;
+}
+
+.header {
+  background: linear-gradient(45deg, #16AEE7, #5CF9FE);
+  position:fixed;
+  top:0;
+  width:100%;
+  height:3.2em;
+
+}
+
+.inner-header{
+  padding-left: 1em;
+  display: inline-block
+}
+
+.navigation{
+  float: right;
+  height: 100%;
+  margin: 0
+}
+
+.main{
+    background-color: #A4BCBB;
+    margin-left: 4em;
+    margin-top: 8em;
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    display: inline-block;
+    width: 90%;
+    border-radius: 30px;
+
+}
+
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+  background-color: #5CA2A0;
+  text-decoration: none;
+}
+
+.navigation a li{
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 20px;
+  color: white;
+}
+
+.navigation a:hover{
+  background-color: #7BBAB8;
+  color: #42300a;
+}
+
+.test {
+    margin-top: 100px;
+    color: red;
+}
